@@ -1,0 +1,25 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+html, body {
+  font-family: 'Inter', sans-serif;
+}
+
+.header, .navbar {
+  @apply bg-white text-green-700;
+}
+
+.btn {
+  @apply bg-green-700 text-white py-2 px-4 rounded;
+}
+
+.btn:hover {
+  @apply bg-green-600;
+}
+
+footer {
+  @apply bg-gray-900 text-white py-6 text-center;
+}
